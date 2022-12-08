@@ -13,12 +13,13 @@ export default function FoodDescription() {
           <div className="food-container">
             <div className="f-left">
               <div className="f-left-text">
-                <h1>Mushroom Philly Cheesesteak</h1>
+                <h1>What is Khachapuri ?</h1>
                 <p>
-                  Chopped on the grill the beef steak slices. The best practices
-                  from US, Philly we brought here to the center of the world -
-                  Prague. Come and get. Come and get. Do not be late. Come and
-                  get.
+                  Khachapuri je tradiční gruzínský pokrm plněný sýrem chléb.
+                  Chléb se vykyne a nechá se vykynout, zformuje se různé tvary a
+                  poté naplňte do středu směsí sýra (čerstvého nebo zrajícího,
+                  nejčastěji specializovaného sýr Khachapuri), vejce a další
+                  přísady.[2] Chléb kůrka se tradičně otrhává a ponoří do sýra.
                 </p>
               </div>
             </div>
