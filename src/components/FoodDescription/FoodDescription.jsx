@@ -15,11 +15,12 @@ export default function FoodDescription() {
               <div className="f-left-text">
                 <h1>What is Khachapuri ?</h1>
                 <p>
-                  Khachapuri je tradiční gruzínský pokrm plněný sýrem chléb.
-                  Chléb se vykyne a nechá se vykynout, zformuje se různé tvary a
-                  poté naplňte do středu směsí sýra (čerstvého nebo zrajícího,
-                  nejčastěji specializovaného sýr Khachapuri), vejce a další
-                  přísady.[2] Chléb kůrka se tradičně otrhává a ponoří do sýra.
+                  Khachapuri is a traditional Georgian dish of cheese-filled
+                  bread. The bread is leavened and allowed to rise, molded into
+                  various shapes, and then filled in the center with a mixture
+                  of cheese (fresh or aged, most commonly, specialized
+                  Khachapuri cheese), eggs, and other ingredients. The bread
+                  crust is traditionally torn off and dipped into the cheese.
                 </p>
               </div>
             </div>

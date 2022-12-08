@@ -4,9 +4,13 @@ import starWhite from "../../images/star-white.png";
 import leftArrow from "../../images/left-arrow.png";
 import rightArrow from "../../images/right-arrow.png";
 import CardImg from "../../images/card-img.png";
+import reviewImg1 from "../../images/review-img-1.png";
+import reviewImg2 from "../../images/review-img-2.png";
+import reviewImg3 from "../../images/review-img-3.png";
+
 export default function Review() {
   return (
-    <div className="reviews">
+    <div className="reviews" id="reviews">
       <div className="reviews-wrapper">
         <h1>Reviews</h1>
         <div className="cards-wrapper">
@@ -14,7 +18,17 @@ export default function Review() {
             return (
               <div className="card" key={index}>
                 <div className="card-title">
-                  <img src={CardImg} alt="" className="card-img" />
+                  <img
+                    src={
+                      index === 0
+                        ? reviewImg1
+                        : index === 1
+                        ? reviewImg2
+                        : reviewImg3
+                    }
+                    alt=""
+                    className="card-img"
+                  />
                   &nbsp; &nbsp;
                   <h1>
                     {index === 0

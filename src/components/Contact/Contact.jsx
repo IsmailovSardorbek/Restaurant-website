@@ -18,7 +18,7 @@ export default function Contact() {
 
             <div className="email-label">
               <a href="mailto:sayyod_3366@mail.ru" className="phone-number">
-                sayyod_3366@mail.ru
+                matoka.konevova@gmail.com
               </a>
             </div>
             <p className="address-label">Address</p>

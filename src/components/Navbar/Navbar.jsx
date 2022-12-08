@@ -45,14 +45,14 @@ export default function Navbar(props) {
                 </Link>
               </li>
               <li>
-                <Link className="nav-link" onClick={hideMenu}>
+                <Link className="nav-link" onClick={hideMenu} to="/menu">
                   Cuisine
                 </Link>
               </li>
               <li>
-                <Link className="nav-link" onClick={hideMenu}>
+                <a className="nav-link" onClick={hideMenu} href="#reviews">
                   Reviews
-                </Link>
+                </a>
               </li>
               <li>
                 <a className="nav-link" onClick={hideMenu} href="#contact">

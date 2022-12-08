@@ -15,7 +15,7 @@ import imgUrl12 from "../../images/card-img-12.png";
 import imgUrl13 from "../../images/card-img-13.png";
 import imgUrl14 from "../../images/card-img-14.png";
 import imgUrl15 from "../../images/card-img-15.png";
-// import FoodListItems from "../../data/data.json";
+// import ImageModal from "../../ImageModal/ImageModal";
 
 export default function FoodList() {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -23,6 +23,12 @@ export default function FoodList() {
   window.addEventListener("resize", () => {
     setWindowWidth(window.innerWidth);
   });
+
+  const [imageSource, setImageSource] = useState(null);
+
+  const [closeModal, setCloseModal] = useState(true);
+
+  document.body.style.overflowY = closeModal ? "visible" : "hidden";
 
   return (
     <React.Fragment>
@@ -34,7 +40,15 @@ export default function FoodList() {
               <h3>Vegie Muffen</h3>
               <div className="price">16$</div>
             </div>
-            <button className="card-button view">View</button>
+            <button
+              className="card-button view"
+              onClick={() => {
+                setImageSource(imgUrl1);
+                setCloseModal(false);
+              }}
+            >
+              View
+            </button>
           </div>
         </div>
 
@@ -46,7 +60,15 @@ export default function FoodList() {
               <div className="price">16$</div>
             </div>
             {windowWidth < 700 ? (
-              <button className="card-button view">View</button>
+              <button
+                className="card-button view"
+                onClick={() => {
+                  setImageSource(imgUrl2);
+                  setCloseModal(false);
+                }}
+              >
+                View
+              </button>
             ) : (
               <div className="card-buttons">
                 <button className="card-button">+</button>
@@ -63,7 +85,15 @@ export default function FoodList() {
               <div className="price">16$</div>
             </div>
             {windowWidth < 700 ? (
-              <button className="card-button view">View</button>
+              <button
+                className="card-button view"
+                onClick={() => {
+                  setImageSource(imgUrl3);
+                  setCloseModal(false);
+                }}
+              >
+                View
+              </button>
             ) : (
               <div className="card-buttons">
                 <button className="card-button">+</button>
@@ -80,7 +110,15 @@ export default function FoodList() {
               <div className="price">16$</div>
             </div>
             {windowWidth < 700 ? (
-              <button className="card-button view">View</button>
+              <button
+                className="card-button view"
+                onClick={() => {
+                  setImageSource(imgUrl4);
+                  setCloseModal(false);
+                }}
+              >
+                View
+              </button>
             ) : (
               <div className="card-buttons">
                 <button className="card-button">+</button>
@@ -97,7 +135,15 @@ export default function FoodList() {
               <div className="price">16$</div>
             </div>
             {windowWidth < 700 ? (
-              <button className="card-button view">View</button>
+              <button
+                className="card-button view"
+                onClick={() => {
+                  setImageSource(imgUrl5);
+                  setCloseModal(false);
+                }}
+              >
+                View
+              </button>
             ) : (
               <div className="card-buttons">
                 <button className="card-button">+</button>
@@ -114,7 +160,15 @@ export default function FoodList() {
               <div className="price">16$</div>
             </div>
             {windowWidth < 700 ? (
-              <button className="card-button view">View</button>
+              <button
+                className="card-button view"
+                onClick={() => {
+                  setImageSource(imgUrl6);
+                  setCloseModal(false);
+                }}
+              >
+                View
+              </button>
             ) : (
               <div className="card-buttons">
                 <button className="card-button">+</button>
@@ -131,7 +185,15 @@ export default function FoodList() {
               <div className="price">16$</div>
             </div>
             {windowWidth < 700 ? (
-              <button className="card-button view">View</button>
+              <button
+                className="card-button view"
+                onClick={() => {
+                  setImageSource(imgUrl7);
+                  setCloseModal(false);
+                }}
+              >
+                View
+              </button>
             ) : (
               <div className="card-buttons">
                 <button className="card-button">+</button>
@@ -148,7 +210,15 @@ export default function FoodList() {
               <div className="price">16$</div>
             </div>
             {windowWidth < 700 ? (
-              <button className="card-button view">View</button>
+              <button
+                className="card-button view"
+                onClick={() => {
+                  setImageSource(imgUrl8);
+                  setCloseModal(false);
+                }}
+              >
+                View
+              </button>
             ) : (
               <div className="card-buttons">
                 <button className="card-button">+</button>
@@ -165,7 +235,15 @@ export default function FoodList() {
               <div className="price">16$</div>
             </div>
             {windowWidth < 700 ? (
-              <button className="card-button view">View</button>
+              <button
+                className="card-button view"
+                onClick={() => {
+                  setImageSource(imgUrl9);
+                  setCloseModal(false);
+                }}
+              >
+                View
+              </button>
             ) : (
               <div className="card-buttons">
                 <button className="card-button">+</button>
@@ -182,7 +260,15 @@ export default function FoodList() {
               <div className="price">16$</div>
             </div>
             {windowWidth < 700 ? (
-              <button className="card-button view">View</button>
+              <button
+                className="card-button view"
+                onClick={() => {
+                  setImageSource(imgUrl10);
+                  setCloseModal(false);
+                }}
+              >
+                View
+              </button>
             ) : (
               <div className="card-buttons">
                 <button className="card-button">+</button>
@@ -199,7 +285,15 @@ export default function FoodList() {
               <div className="price">16$</div>
             </div>
             {windowWidth < 700 ? (
-              <button className="card-button view">View</button>
+              <button
+                className="card-button view"
+                onClick={() => {
+                  setImageSource(imgUrl11);
+                  setCloseModal(false);
+                }}
+              >
+                View
+              </button>
             ) : (
               <div className="card-buttons">
                 <button className="card-button">+</button>
@@ -216,7 +310,15 @@ export default function FoodList() {
               <div className="price">16$</div>
             </div>
             {windowWidth < 700 ? (
-              <button className="card-button view">View</button>
+              <button
+                className="card-button view"
+                onClick={() => {
+                  setImageSource(imgUrl12);
+                  setCloseModal(false);
+                }}
+              >
+                View
+              </button>
             ) : (
               <div className="card-buttons">
                 <button className="card-button">+</button>
@@ -233,7 +335,15 @@ export default function FoodList() {
               <div className="price">16$</div>
             </div>
             {windowWidth < 700 ? (
-              <button className="card-button view">View</button>
+              <button
+                className="card-button view"
+                onClick={() => {
+                  setImageSource(imgUrl13);
+                  setCloseModal(false);
+                }}
+              >
+                View
+              </button>
             ) : (
               <div className="card-buttons">
                 <button className="card-button">+</button>
@@ -250,7 +360,15 @@ export default function FoodList() {
               <div className="price">16$</div>
             </div>
             {windowWidth < 700 ? (
-              <button className="card-button view">View</button>
+              <button
+                className="card-button view"
+                onClick={() => {
+                  setImageSource(imgUrl14);
+                  setCloseModal(false);
+                }}
+              >
+                View
+              </button>
             ) : (
               <div className="card-buttons">
                 <button className="card-button">+</button>
@@ -267,7 +385,15 @@ export default function FoodList() {
               <div className="price">16$</div>
             </div>
             {windowWidth < 700 ? (
-              <button className="card-button view">View</button>
+              <button
+                className="card-button view"
+                onClick={() => {
+                  setImageSource(imgUrl15);
+                  setCloseModal(false);
+                }}
+              >
+                View
+              </button>
             ) : (
               <div className="card-buttons">
                 <button className="card-button">+</button>
@@ -277,6 +403,27 @@ export default function FoodList() {
           </div>
         </div>
       </div>
+      {
+        <div
+          className={`image-modal`}
+          style={{
+            display: !closeModal ? "flex" : "none",
+          }}
+        >
+          <div
+            style={{ position: "relative", width: "300px", height: "300px" }}
+          >
+            <img src={imageSource} className="modal-image" />
+            <button
+              className="close"
+              onClick={() => setCloseModal((open) => !open)}
+            >
+              {" "}
+              &times;{" "}
+            </button>
+          </div>
+        </div>
+      }
     </React.Fragment>
   );
 }
