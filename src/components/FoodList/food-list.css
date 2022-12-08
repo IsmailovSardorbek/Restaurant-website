@@ -1,0 +1,93 @@
+.food-card-title h3 {
+  font-weight: 400;
+  font-family: "Sorts Mill Goudy", serif !important;
+  font-size: 18px;
+}
+
+.food-card {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  max-width: 200px;
+  border-radius: 14px;
+  margin-bottom: 1rem;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.food-card:hover {
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 5%);
+}
+
+.card-body {
+  padding: 1rem;
+}
+
+.card-button {
+  background-color: var(--secondary-color);
+  border: 0;
+  outline: 0;
+  color: #fff;
+  padding: 0.5rem 2.5rem;
+  border-radius: 10px;
+  font-size: 15px;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.view {
+  display: block;
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.price {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.food-card-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.food-card-img {
+  width: 100%;
+  height: 180px;
+}
+
+.food-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  margin: auto;
+}
+
+.card-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-buttons button {
+  font-size: 14px;
+  padding: 0.3rem 1rem;
+}
+
+.card-buttons button:first-child {
+  font-size: 20px;
+  padding: 0.3rem 0.7rem;
+}
+
+@media (max-width: 700px) {
+  .food-cards-grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 0.8rem;
+  }
+
+  .food-card-title h3 {
+    font-size: 14px;
+  }
+
+  .price {
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Raleway:wght@400;500;600&display=swap");
+
+:root {
+  --main-color: #e40b0b;
+  --secondary-color: #ff9a2d;
+  --card-color: #f1f1f1;
+  --contact-color: #00e34d;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  overflow-x: hidden;
+  height: 100%;
+  width: 100%;
+}

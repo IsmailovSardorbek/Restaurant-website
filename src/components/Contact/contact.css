@@ -1,0 +1,72 @@
+.contact-us {
+  margin: 4rem 0;
+}
+
+.contacts-wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.phone-number {
+  color: #000;
+  font-weight: 800;
+  font-size: 14px;
+}
+
+.phone-label {
+  margin-bottom: 10px;
+}
+.contact-label,
+.address-label {
+  margin: 3rem 0 1rem 0;
+}
+
+.l-text {
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.contact-sections {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.map-image {
+  max-width: 400px;
+  padding: 0 1rem;
+  z-index: 2;
+}
+
+.c-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-left {
+  position: absolute;
+  background: var(--main-color);
+  width: 90px;
+  height: 120px;
+  top: -5%;
+  left: -3%;
+  border-radius: 10px;
+  z-index: -1;
+}
+
+.bottom-right {
+  background: var(--main-color);
+  width: 70px;
+  height: 70px;
+  bottom: -3%;
+  right: -3%;
+  position: absolute;
+  border-radius: 10px;
+  z-index: -1;
+}
+
+.box {
+  position: relative;
+}

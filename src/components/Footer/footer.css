@@ -1,0 +1,42 @@
+.footer {
+  border-top: 2px solid var(--main-color);
+}
+
+.footer-wrapper {
+  max-width: 980px;
+  margin: auto;
+  padding: 25px 25px 0 25px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-menu {
+  display: flex;
+  gap: 1.8rem;
+  list-style-type: none;
+}
+
+.footer-link {
+  color: #323232;
+  text-decoration: none;
+}
+
+.contact-number a {
+  color: #000;
+}
+
+.footer-logo,
+.footer-menu,
+.contact-number {
+  margin-bottom: 1.5rem;
+}
+
+.footer-logo {
+  width: 130px;
+  height: 20px;
+}
