@@ -17,7 +17,10 @@ export default function Contact() {
             <p className="contact-label">Email</p>
 
             <div className="email-label">
-              <a href="mailto:sayyod_3366@mail.ru" className="phone-number">
+              <a
+                href="mailto:matoka.konevova@gmail.com"
+                className="phone-number"
+              >
                 matoka.konevova@gmail.com
               </a>
             </div>

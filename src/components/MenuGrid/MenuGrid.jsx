@@ -14,7 +14,7 @@ export default function MenuGrid() {
   const [showModal, setShowModal] = useState(false);
 
   return (
-    <React.Fragment>
+    <>
       <MenuListModal showModal={showModal} setShowModal={setShowModal} />
       <div className="menu-grid">
         <div className="wrapper">
@@ -32,9 +32,13 @@ export default function MenuGrid() {
                 >
                   <h4
                     style={{ cursor: "pointer" }}
-                    onClick={() => setShowModal(true)}
+                    onClick={() => setShowModal((open) => !open)}
                   >
-                    Menu <img src={menuArrow} className="menu-arrow" />
+                    Menu{" "}
+                    <img
+                      src={menuArrow}
+                      className={`menu-arrow  ${showModal ? "rotate" : ""}`}
+                    />
                   </h4>
                   <div style={{ cursor: "pointer" }}>All</div>
                 </div>
@@ -42,7 +46,7 @@ export default function MenuGrid() {
                 <div className="menu-list-card">
                   <div className="menu-card-title">
                     <h2>Menu</h2>
-                    <img src={halalImg} className="card-title-img" />
+                    <img src={halalImg} className={`card-title-img`} />
                   </div>
                   <ul className="menu-card-list">
                     <li className="list-item">
@@ -90,6 +94,6 @@ export default function MenuGrid() {
           </div>
         </div>
       </div>
-    </React.Fragment>
+    </>
   );
 }

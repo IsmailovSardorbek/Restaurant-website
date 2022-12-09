@@ -3,8 +3,6 @@
   max-height: 100%;
 }
 
-
-
 .wrapper {
   max-width: 980px;
   margin: 0 auto;
@@ -61,11 +59,17 @@
 
 .m-right {
   flex-grow: 7;
+  max-height: 2000px;
 }
 
 .menu-arrow {
   width: 12px;
   height: 12px;
+  transition: all 0.3s;
+}
+
+.rotate {
+  rotate: 180deg;
 }
 
 @media (max-width: 550px) {

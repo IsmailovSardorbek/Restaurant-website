@@ -21,14 +21,14 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link to="/" className="footer-link">
+                <Link to="/menu" className="footer-link">
                   Cuisine
                 </Link>
               </li>
               <li>
-                <Link to="/" className="footer-link">
+                <a href="#reviews" className="footer-link">
                   Reviews
-                </Link>
+                </a>
               </li>
               <li>
                 <a href="tel:+420606600161" className="footer-link">

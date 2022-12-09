@@ -1,15 +1,3 @@
-.modal {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: all 0.2s ease-in;
-}
-
 .modal-menu-list {
   background: #fff;
   list-style: none;
@@ -19,8 +7,23 @@
   gap: 1rem;
   border-radius: 10px;
   padding-right: 3rem;
+  left: -100%;
+  top: 17%;
+  position: absolute;
+  transition: all 0.4s ease;
+  border: 1px solid #f1f1f1;
+}
+
+.list-show {
+  left: 6%;
 }
 
 .menu-list_item {
   cursor: pointer;
+}
+
+@media (min-width: 600px) {
+  .modal-menu-list {
+    display: none;
+  }
 }
