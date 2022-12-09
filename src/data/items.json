@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "imgUrl": "./images/card-img-1.png",
+    "title": "Vegie Muffen",
+    "price": "16$",
+    "category": "khachapuri"
+  },
+  {
+    "id": 2,
+    "imgUrl": "./images/card-img-2.png",
+    "title": "Vegie Muffen",
+    "price": "16$",
+    "category": "khachapuri"
+  },
+  {
+    "id": 3,
+    "imgUrl": "./images/card-img-3.png",
+    "title": "Vegie Muffen",
+    "price": "16$",
+    "category": "khachapuri"
+  },
+  {
+    "id": 4,
+    "imgUrl": "./images/card-img-4.png",
+    "title": "Vegie Muffen",
+    "price": "16$",
+    "category": "khachapuri"
+  },
+  {
+    "id": 5,
+    "imgUrl": "./images/card-img-5.png",
+    "title": "Vegie Muffen",
+    "price": "16$",
+    "category": "khachapuri"
+  },
+  {
+    "id": 6,
+    "imgUrl": "./images/card-img-6.png",
+    "title": "Vegie Muffen",
+    "price": "16$",
+    "category": "burger"
+  },
+  {
+    "id": 7,
+    "imgUrl": "./images/card-img-7.png",
+    "title": "Vegie Muffen",
+    "price": "16$",
+    "category": "hot-dog"
+  },
+  {
+    "id": 8,
+    "imgUrl": "./images/card-img-8.png",
+    "title": "Vegie Muffen",
+    "price": "16$",
+    "category": "pan cake"
+  },
+  {
+    "id": 9,
+    "imgUrl": "./images/card-img-9.png",
+    "title": "Vegie Muffen",
+    "price": "16$",
+    "category": "khachapuri"
+  },
+  {
+    "id": 10,
+    "imgUrl": "./images/card-img-10.png",
+    "title": "Vegie Muffen",
+    "price": "16$",
+    "category": "khachapuri"
+  },
+  {
+    "id": 11,
+    "imgUrl": "./images/card-img-11.png",
+    "title": "Vegie Muffen",
+    "price": "16$",
+    "category": "free"
+  },
+  {
+    "id": 12,
+    "imgUrl": "./images/card-img-12.png",
+    "title": "Vegie Muffen",
+    "price": "16$",
+    "category": "pan cake"
+  },
+  {
+    "id": 13,
+    "imgUrl": "./images/card-img-13.png",
+    "title": "Vegie Muffen",
+    "price": "16$",
+    "category": "drink"
+  },
+  {
+    "id": 14,
+    "imgUrl": "./images/card-img-14.png",
+    "title": "Vegie Muffen",
+    "price": "16$",
+    "category": "drink"
+  },
+  {
+    "id": 15,
+    "imgUrl": "./images/card-img-15.png",
+    "title": "Vegie Muffen",
+    "price": "16$",
+    "category": "drink"
+  }
+]

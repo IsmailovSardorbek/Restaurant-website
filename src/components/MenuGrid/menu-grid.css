@@ -22,6 +22,10 @@
   gap: 0.8rem;
 }
 
+.list-item {
+  cursor: pointer;
+}
+
 .menu-card-title {
   display: flex;
 }
@@ -31,6 +35,8 @@
   max-width: 100%;
   padding: 1.5rem;
   max-width: 205px;
+  background-color: #fff;
+  transition: all 0.3s ease;
 }
 
 .menu-card-title {
@@ -59,7 +65,7 @@
 
 .m-right {
   flex-grow: 7;
-  max-height: 2000px;
+  max-height: 1800px;
 }
 
 .menu-arrow {

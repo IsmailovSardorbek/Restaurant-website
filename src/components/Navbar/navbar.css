@@ -119,6 +119,14 @@
   color: #000;
 }
 
+.mobile-bg {
+  width: 100%;
+  height: 300px;
+  background: url(../../images/mobile-hero.png) no-repeat center center;
+  background-size: cover;
+  margin-top: 4.5rem;
+}
+
 @media (max-width: 700px) {
   .menu-toggler {
     display: block;
@@ -136,11 +144,12 @@
     right: -100%;
     flex-direction: column;
     width: 100%;
-    height: fit-content;
+    height: 100%;
     gap: 25px;
     transition: all 0.5s;
     padding-bottom: 1rem;
     background: #fff;
+    background-size: cover;
   }
 
   .menu.show {

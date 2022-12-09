@@ -66,6 +66,10 @@ export default function Navbar(props) {
                 &nbsp; Get in touch
               </a>
             </button>
+            <div
+              className="mobile-bg"
+              style={{ display: windowWidth < 700 ? "block" : "none" }}
+            ></div>
           </div>
           <button className="menu-toggler" onClick={toggleMenu}>
             <span></span>
