@@ -9,6 +9,7 @@ export default function Home() {
     <>
       <Hero />
       <FoodDescription />
+
       <Review />
       <Contact />
       <Footer />

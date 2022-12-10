@@ -1,10 +1,14 @@
 .reviews {
   margin: 2rem 0;
+  max-width: 1400px;
+  margin: auto;
 }
 
 .reviews-wrapper {
-  max-width: 1110px;
   padding: 2rem;
+  width: 100%;
+  width: 100%;
+  max-width: 1140px;
   margin-left: auto;
 }
 
@@ -36,7 +40,6 @@
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 1rem;
   padding-top: 1rem;
-  justify-content: flex-end;
 }
 
 .card-body {
